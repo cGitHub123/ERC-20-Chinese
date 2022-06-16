@@ -69,6 +69,22 @@ https://ropsten.etherscan.io/tx/0xd1cc1ce4ca4eb382f5f9e4187020bafb2cc5e543d1428f
 
 ![Selection_012](/assets/Selection_012.png)
 
+### 查看metamask
+
+我们在metamask导入token，就可以看到刚刚创建的token了
+
+![Selection_014](/assets/Selection_014.png)
+
 ### 操作:
 
 ![Selection_013](/assets/Selection_013.png)
+
+我们创建一个新的账户:
+
+![Selection_015](/assets/Selection_015.png)
+
+给他转账:
+
+![Screenshot from 2022-06-17 05-40-47](/assets/Screenshot%20from%202022-06-17%2005-40-47.png)
+
+然后这1000个就转了10个给测试账户
