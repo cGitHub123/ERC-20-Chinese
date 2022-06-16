@@ -32,7 +32,7 @@ contract SafeMath {
 }
 
 
-contract CodeWithJoe is ERC20Interface, SafeMath {
+contract GavinCai is ERC20Interface, SafeMath {
     string public name;
     string public symbol;
     uint8 public decimals; // 18 decimals is the strongly suggested default, avoid changing it
@@ -48,10 +48,12 @@ contract CodeWithJoe is ERC20Interface, SafeMath {
      * Initializes contract with initial supply tokens to the creator of the contract
      */
     constructor() public {
-        name = "CodeWithJoe";
-        symbol = "CWJ";
+        name = "GavinCai";
+        symbol = "GavinCaiToken";
+        // decimals就是最小切分单元.
         decimals = 18;
-        _totalSupply = 100000000000000000000000000;
+        // 总的数量，这里要注意，这里结果是0.000000000000001
+        _totalSupply = 1000;
 
         balances[msg.sender] = _totalSupply;
         emit Transfer(address(0), msg.sender, _totalSupply);
