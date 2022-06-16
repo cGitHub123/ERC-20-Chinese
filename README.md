@@ -48,3 +48,27 @@ https://ropsten.etherscan.io/tx/0xd1cc1ce4ca4eb382f5f9e4187020bafb2cc5e543d1428f
 ![Selection_006](/assets/Selection_006.png)
 
 查看合约:
+
+![Selection_007](/assets/Selection_007.png)
+
+### 验证:
+
+我们点击contract, 然后点击verify，
+
+![Selection_008](/assets/Selection_008.png)
+
+把代码粘贴上，就完成了:
+
+![Selection_010](/assets/Selection_010.png)
+
+然后回来之后，我们可以看到已经验证完成:
+
+![Selection_011](/assets/Selection_011.png)
+
+然后在这里我们可以查查拥有的token:
+
+![Selection_012](/assets/Selection_012.png)
+
+### 操作:
+
+![Selection_013](/assets/Selection_013.png)
