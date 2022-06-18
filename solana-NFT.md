@@ -135,13 +135,14 @@ Done in 1.03s.
 ### metaplex-master
 
 #### 解压缩
+执行命令unzip
 ```
 caibin@caibin-MS-7C82:~/solana-project$ unzip metaplex-master.zip
 ```
 
 #### 在解压后的文件夹下建立assets
 
-然后把上面build的那几个图片和json复制过来
+在解压后的文件夹下建立assets,然后把上面build的那几个图片和json复制过来
 
 ![Screenshot from 2022-06-19 01-48-28](/assets/Screenshot%20from%202022-06-19%2001-48-28.png)
 
@@ -176,7 +177,7 @@ caibin@caibin-MS-7C82:~/solana-project$ unzip metaplex-master.zip
 ```
 #### 部署candy Machine
 
-首先在metaplex-master/js目录下安装依赖
+首先在metaplex-master/js目录下安装依赖,执行命令:
 
 ```
 caibin@caibin-MS-7C82:~/solana-project/metaplex-master/js$ yarn
@@ -188,6 +189,8 @@ yarn install v1.22.19
 
 然后找到需要upload的地方
 ![Screenshot from 2022-06-19 02-12-11](/assets/Screenshot%20from%202022-06-19%2002-12-11.png)
+
+执行命令:
 
 ```
 ts-node ~/solana-project/metaplex-master/js/packages/cli/src/candy-machine-v2-cli.ts upload \
@@ -222,7 +225,7 @@ Collection:  {
 ```
 caibin@caibin-MS-7C82:~/solana-project/metaplex-master/js/packages/candy-machine-ui$ yarn
 ```
-然后我们吧.env.example改成.env，并修改里面的MACHINE_ID为ESjRWnyBNcVVmjhgXiw33GCnjWivg8HiZHvg8uxxKqAs
+然后我们吧.env.example改成.env，并修改里面的MACHINE_ID为ESjRWnyBNcVVmjhgXiw33GCnjWivg8HiZHvg8uxxKqAs,这个ID就是上面输出的
 
 然后执行在candy-machine-ui下执行yarn start
 
